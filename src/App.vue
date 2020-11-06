@@ -1,17 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <a-button type="primary">Hello World! <smile-outlined /></a-button>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SmileOutlined from '@ant-design/icons-vue/SmileOutlined';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    SmileOutlined,
+  },
+};
 </script>
 
 <style>
